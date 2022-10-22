@@ -1,0 +1,55 @@
+.get_btn {
+    display: inline-block;
+    background: #007c41;
+    color: #fff;
+    padding: 0.4rem 1.3rem;
+    font-size: 1rem;
+    position: absolute;
+    left: 49%;
+    border: none;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    transition: opacity 0.2s ease-in;
+    outline: none;
+}
+
+.clear {
+    display: inline-block;
+    background: rgb(84, 84, 84);
+    color: #fff;
+    padding: 0.4rem 1.3rem;
+    font-size: 1rem;
+    position: absolute;
+    left: 49%;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    transition: opacity 0.2s ease-in;
+    outline: none;
+}
+
+.p1 {
+    padding: 0.5rem;
+    font-size: 1.0rem;
+    color: black;
+}
+
+.container {
+    padding-left: 37rem;
+    position: relative;
+}
+
+.field {
+    width: 100%;
+    right: 50%;
+    height: 56px;
+    border-radius: 4px;
+    position: relative;
+    background-color: rgba(255,255,255,0.3);
+    transition: 0.3s all;
+  }
+  .field:hover {
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+  }
